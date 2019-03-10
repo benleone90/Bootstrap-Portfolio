@@ -18,15 +18,13 @@ body{
 
     .container {
         max-width: 960px;
-        margin: 100px auto;
+        margin: 40px auto;
     }
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
-    padding: 
-    
+    color: #4aaaa5
 }
 
 a.navbar-brand {
@@ -35,4 +33,10 @@ a.navbar-brand {
     font-size: 36px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+a.nav-link,
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
