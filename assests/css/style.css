@@ -1,0 +1,38 @@
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/assests/images/rockywall_@2X.png);
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+@media (min-width: 1200px) {
+    .navbar {
+        max-width: 960px;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: 100px auto;
+    }
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 
+    
+}
+
+a.navbar-brand {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
