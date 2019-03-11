@@ -19,27 +19,49 @@
     <title>My Portfolio</title>
   </head>
 
- <!-- Body Content -->
- <body>
+  <!-- Body Content -->
+  <body>
     <!-- Navbar -->
     <div class="container-fluid bg-white">
-      <nav class="navbar d-flex flex-column flex-md-row align-items-center mx-auto p-0">
-        <a class="navbar-brand mr-md-auto px-3" href="./index.html">Ben Leone</a>
+      <nav
+        class="navbar d-flex flex-column flex-md-row align-items-center mx-auto p-0"
+      >
+        <a class="navbar-brand mr-md-auto px-3" href="./index.html"
+          >Ben Leone</a
+        >
         <a class="nav-link" href="./index.html">About</a>
-        <span>|</span>
+        <span class="d-none d-md-block">|</span>
         <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        <span>|</span>
+        <span class="d-none d-md-block">|</span>
         <a class="nav-link" href="./contact.html">Contact</a>
       </nav>
     </div>
-    
+
     <!-- Content Container -->
-    <div class="container d-flex flex-column flex-row bg-white row">
-            <div class="page-header mb-2 border-bottom">
-                <h1 class="font-weight-bold">Contact</h1>
-            </div>
-    <footer class="footer mx-auto my-0 fixed-bottom bg-white">
-            <p class="text-center">Copyright</p>
-    </footer>
+    <div class="container d-flex flex-column flex-row bg-white">
+      <div class="page-header mb-2 border-bottom">
+        <h1 class="font-weight-bold">Contact</h1>
+      </div>
+      <div class="row">
+        <form class="col-md-12">
+          <div class="form-group">
+            <label for="fname">Full Name</label>
+            <input type="text" class="form-control rounded-0" id="fname" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control rounded-0" id="email" placeholder="example@domain.com">
+          </div>
+          <div class="form-group">
+            <label for="text-area">Message</label>
+            <textarea class="form-control rounded-0" id="text-area" rows="4" placeholder="Your message here..."></textarea>
+          </div>
+          <button type="submit" class="btn mb-md-3 px-md-4 rounded-0">Submit</button>
+        </form>
+      </div>
+      <footer class="footer mx-auto my-0 fixed-bottom bg-white">
+        <p class="text-center">Copyright &copy;</p>
+      </footer>
+    </div>
   </body>
 </html>
