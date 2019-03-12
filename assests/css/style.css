@@ -1,5 +1,8 @@
 body {
     background-image: url(../images/rockywall_@2X.png);
+    background-size: cover;
+    background-color: #cccccc;
+    margin: 0px;
 }
 
 
