@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta tags -->
+    <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- add shrink-to-fit=no if formatting is strange -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <!-- Reset, Bootstrap, and Custom CSS Links -->
-    <link rel="stylesheet" href="./assests/css/reset.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./assests/css/reset.css" />
     <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assests/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assests/css/style.css" />
 
-    <title>My Portfolio</title>
+    <title>My Profile</title>
   </head>
 
-  <!-- Body Content -->
   <body>
     <!-- Navbar -->
-    <!-- Navbar -->
-    <div class="container-fluid bg-white">
-      <nav
-        class="navbar d-flex flex-column flex-md-row align-items-center mx-auto p-0"
+    <div class="d-flex flex-column flex-md-row align-items-center bg-white">
+      <h2
+        class="text-center text-md-left px-3 py-2 py-md-2 my-0 my-md-0 mr-md-auto font-weight-bold"
       >
-        <a class="navbar-brand mr-md-auto px-3" href="./index.html"
-          >Ben Leone</a
-        >
-        <a class="nav-link" href="./index.html">About</a>
-        <span class="d-none d-md-block">|</span>
-        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        <span class="d-none d-md-block">|</span>
-        <a class="nav-link" href="./contact.html">Contact</a>
+        Ben Leone
+      </h2>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a href="./index.html">About</a>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp</span>
+        <a href="./portfolio.html">Portfolio</a>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp</span>
+        <a href="./contact.html">Contact</a>
       </nav>
     </div>
 
     <!-- Content Container -->
-    <div class="container d-flex flex-column flex-row bg-white">
-      <div class="page-header mb-2 border-bottom">
-        <h1 class="font-weight-bold">Portfolio</h1>
-      </div>
-      <div class="container d-flex flex-column my-1">
+    <div class="container-fluid d-flex flex-column flex-row bg-white my-md-3">
+      <h2 class="page-header mb-3 border-bottom font-weight-bold">Portfolio</h2>
+      <div class="container-fluid d-flex flex-column my-0 mx-auto mx-md-0 px-0">
         <div class="row my-md-2 mx-auto w-100">
           <div class="col-md-4">
             <img
@@ -52,6 +50,7 @@
               style="width:100%"
               alt="Image"
             />
+            <h4 class="text-block">Web Application</h4>
           </div>
           <div class="col-md-4">
             <img
@@ -60,6 +59,7 @@
               style="width:100%"
               alt="Image"
             />
+            <h4 class="text-block">Tablet App</h4>
           </div>
           <div class="col-md-4">
             <img
@@ -68,6 +68,7 @@
               style="width:100%"
               alt="Image"
             />
+            <h4 class="text-block">Mobile App</h4>
           </div>
         </div>
         <div class="row my-md-2 mx-auto w-100">
@@ -78,11 +79,13 @@
               style="width:100%"
               alt="Image"
             />
+            <h4 class="text-block">HTML & CSS Learning</h4>
           </div>
         </div>
       </div>
-      <footer class="footer mx-auto my-0 fixed-bottom bg-white">
-        <p class="text-center my-0">Copyright &copy;</p>
+
+      <footer class="footer mx-auto my-0 py-2 fixed-bottom text-center">
+        Copyright &copy;
       </footer>
     </div>
   </body>
